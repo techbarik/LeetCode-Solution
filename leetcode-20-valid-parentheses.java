@@ -1,3 +1,9 @@
+/*
+  Contributed by: Md. A. Barik
+  Video explanation: https://youtu.be/sbpy63VJDA4
+  CS Ninja: https://www.youtube.com/c/csninja
+*/
+
 class Solution {
   private HashMap<Character, Character> mappings;
   public Solution() {

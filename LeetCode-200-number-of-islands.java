@@ -53,9 +53,9 @@ callBFS(grid, 0, 0):
                   callBFS(grid, 0, 2): return
               callBFS(grid, 1, 0): return
               callBFS(grid, 1, 2): return 
-callBFS(grid, -1, 0): return
-callBFS(grid, 0, -1): return
-callBFS(grid, 0, 1): return
+    callBFS(grid, -1, 0): return
+    callBFS(grid, 0, -1): return
+    callBFS(grid, 0, 1): return
                       
                       
                       
@@ -66,9 +66,6 @@ callBFS(grid, 2, 2):
     callBFS(grid, 1, 2): return
     callBFS(grid, 2, 1): return
     callBFS(grid, 2, 3): return
-callBFS(grid, 1, 2): return
-callBFS(grid, 2, 1): return
-callBFS(grid, 2, 3): return
         
 callBFS(grid, 3, 3):
     grid[3][3] = 0
@@ -81,9 +78,6 @@ callBFS(grid, 3, 3):
         callBFS(grid, 2, 4): return
         callBFS(grid, 3, 3): return
         callBFS(grid, 3, 5): return
-callBFS(grid, 2, 3): return
-callBFS(grid, 3, 2): return
-callBFS(grid, 3, 4): return
 */
     
     

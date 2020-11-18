@@ -29,7 +29,6 @@ class Solution {
   }
 }
 
-class Solution {
-    private cass IntervalComparator implements Compar
-}
-
+/*
+TC: O(n*log(n))
+SC: O(n) */
